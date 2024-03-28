@@ -16,22 +16,22 @@ A suite of SDKs is available for different programming languages to cater to a w
 
 [Bitcoin Development Kit (BDK)](https://bitcoindevkit.org/) is an open-source library that allows you to seamlessly build cross-platform Bitcoin wallets and applications without worrying about bitcoin internals. It is originally written in Rust, so LtbL offers ready-to use and up-to-date Flutter and React Native bindings for it. Saving you the time to write these yourselves and letting you focus on your application logic.
 
-Flutter: https://github.com/LtbLightning/bdk-flutter  
-React Native: https://github.com/LtbLightning/bdk-rn
+- Flutter: https://github.com/LtbLightning/bdk-flutter
+- React Native: https://github.com/LtbLightning/bdk-rn
 
 ### LDK Node (bindings)
 
 A ready-to-go Lightning node library built using [Lightning Development Kit (LDK)](https://lightningdevkit.org/) and [BDK](https://bitcoindevkit.org/). Also originally written in Rust, LtbL provides up-to-date bindings for Flutter, React Native and Node.js.
 
-Flutter: https://github.com/LtbLightning/ldk-node-flutter  
-React Native: https://github.com/LtbLightning/ldk-node-rn  
-Node.js: https://github.com/LtbLightning/ldk-node-nodejs
+- Flutter: https://github.com/LtbLightning/ldk-node-flutter
+- React Native: https://github.com/LtbLightning/ldk-node-rn
+- Node.js: https://github.com/LtbLightning/ldk-node-nodejs
 
 ### Payjoin Development Kit (bindings)
 
 [Payjoin Development Kit (PDK)](https://payjoindevkit.org/) is a full and completely standalone Payjoin implementation with supporting modules enabling great flexibility. Also originally written in Rust, LtbL provides up-to-date bindings for different programming languages.
 
-Flutter: https://github.com/LtbLightning/payjoin-flutter
+- Flutter: https://github.com/LtbLightning/payjoin-flutter
 
 ## Services ⚙️
 
@@ -43,9 +43,9 @@ Our Esplora service offers an easy-to-use, API-based access to Bitcoin blockchai
 
 All packages like BDK, LDK Node and PDK rely on this information and can be configured with the following URLs depending on the desired network:
 
-🔜 Signet:  
-🔜 Testnet:  
-🔜 Mainnet:
+- 🔜 Signet:
+- 🔜 Testnet:
+- 🔜 Mainnet:
 
 This service can be utilized as the default blockchain data source in your app, providing a seamless initial user experience, with the option for users to configure their own node in the application settings later, if preferred.
 
@@ -53,9 +53,9 @@ This service can be utilized as the default blockchain data source in your app, 
 
 The Lightning Network's efficiency and performance depend heavily on timely and accurate network information. Our [Rapid Gossip Sync (RGS)](https://github.com/lightningdevkit/rapid-gossip-sync-server) server enhances path finding on the Lightning Network by providing developers and their applications with fast, reliable access to network topology information. This service is crucial for applications requiring up-to-date data for routing payments efficiently, eliminating long sync times for their end-users. This service is compatible with and can be easily configured in the LDK Node package.
 
-🔜 Signet:  
-🔜 Testnet:  
-🔜 Mainnet:
+- 🔜 Signet:
+- 🔜 Testnet:
+- 🔜 Mainnet:
 
 ### 🔜 Versioned Storage System (VSS)
 
