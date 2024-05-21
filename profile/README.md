@@ -44,7 +44,7 @@ Our Esplora service offers an easy-to-use, API-based access to Bitcoin blockchai
 All packages like BDK, LDK Node and PDK rely on this information and can be configured with the following URLs depending on the desired network:
 
 - 🔜 Signet:
-- Testnet: testnet.ltbl.io/api
+- Testnet: https://testnet.ltbl.io/api
 - 🔜 Mainnet:
 
 This service can be utilized as the default blockchain data source in your app, providing a seamless initial user experience, with the option for users to configure their own node in the application settings later, if preferred.
@@ -54,7 +54,7 @@ This service can be utilized as the default blockchain data source in your app, 
 The Lightning Network's efficiency and performance depend heavily on timely and accurate network information. Our [Rapid Gossip Sync (RGS)](https://github.com/lightningdevkit/rapid-gossip-sync-server) server enhances path finding on the Lightning Network by providing developers and their applications with fast, reliable access to network topology information. This service is crucial for applications requiring up-to-date data for routing payments efficiently, eliminating long sync times for their end-users. This service is compatible with and can be easily configured in the LDK Node package.
 
 - 🔜 Signet:
-- Testnet: testnet.ltbl.io/snapshot
+- Testnet: https://testnet.ltbl.io/snapshot
 - 🔜 Mainnet:
 
 ### Versioned Storage System (VSS)
@@ -64,7 +64,7 @@ In a non-custodial Lightning wallet, it is crucial to securely store and manage 
 LtbL runs this service and makes it available for Lightning wallet developers to offer seamless backups to their users without having to maintain any infrastructure themselves.
 
 - 🔜 Signet:
-- Testnet: testnet.ltbl.io/vss
+- Testnet: https://testnet.ltbl.io/vss
 - 🔜 Mainnet:
 
 ## Learn 🎓
