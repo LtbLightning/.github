@@ -37,31 +37,35 @@ A ready-to-go Lightning node library built using [Lightning Development Kit (LD
 
 Building self-custodial apps and safely onboarding users can be very challenging. To improve this experience for both developers as for users of your app, we provide a range of free, standardised and opt-in services.
 
-### 🔜 Esplora
+### Esplora
 
 Our Esplora service offers an easy-to-use, API-based access to Bitcoin blockchain data.
 
 All packages like BDK, LDK Node and PDK rely on this information and can be configured with the following URLs depending on the desired network:
 
 - 🔜 Signet:
-- 🔜 Testnet:
+- Testnet: https://testnet.ltbl.io/api
 - 🔜 Mainnet:
 
 This service can be utilized as the default blockchain data source in your app, providing a seamless initial user experience, with the option for users to configure their own node in the application settings later, if preferred.
 
-### 🔜 Rapid Gossip Sync (RGS)
+### Rapid Gossip Sync (RGS)
 
 The Lightning Network's efficiency and performance depend heavily on timely and accurate network information. Our [Rapid Gossip Sync (RGS)](https://github.com/lightningdevkit/rapid-gossip-sync-server) server enhances path finding on the Lightning Network by providing developers and their applications with fast, reliable access to network topology information. This service is crucial for applications requiring up-to-date data for routing payments efficiently, eliminating long sync times for their end-users. This service is compatible with and can be easily configured in the LDK Node package.
 
 - 🔜 Signet:
-- 🔜 Testnet:
+- Testnet: https://testnet.ltbl.io/snapshot
 - 🔜 Mainnet:
 
-### 🔜 Versioned Storage System (VSS)
+### Versioned Storage System (VSS)
 
 In a non-custodial Lightning wallet, it is crucial to securely store and manage various types of state data. This includes maintaining a list of open channels with other nodes in the network and updating the channel state for every payment made or received. Relying solely on user devices to store this information is not reliable, as data loss could lead to the loss of funds or even the entire wallet. To address this challenge, the [VSS project](https://github.com/lightningdevkit/vss-server) introduces a framework and a readily available service that can be hosted by anyone as a Versioned Storage Service.
 
 LtbL runs this service and makes it available for Lightning wallet developers to offer seamless backups to their users without having to maintain any infrastructure themselves.
+
+- 🔜 Signet:
+- Testnet: https://testnet.ltbl.io/vss
+- 🔜 Mainnet:
 
 ## Learn 🎓
 
