@@ -32,6 +32,7 @@ A ready-to-go Lightning node library built using [Lightning Development Kit (LD
 [Payjoin Development Kit (PDK)](https://payjoindevkit.org/) is a full and completely standalone Payjoin implementation with supporting modules enabling great flexibility. Also originally written in Rust, LtbL provides up-to-date bindings for different programming languages.
 
 - Flutter: https://github.com/LtbLightning/payjoin-flutter
+- Python: https://github.com/LtbLightning/payjoin-ffi/tree/main/python§
 
 ## Services ⚙️
 
@@ -81,6 +82,7 @@ Explore our demo applications to see our SDKs and services in action. They can s
 - BDK React Native app: https://github.com/LtbLightning/bdk-rn-demo  
   (Accompanying guide: https://bitcoindevkit.org/blog/exploring-bdk-rn/)
 - LDK Node React Native app: https://github.com/LtbLightning/ldk-node-rn-demo
+- Payjoin Flutter app: https://github.com/LtbLightning/payjoin-flutter-demo
 
 ### Workshops
 
