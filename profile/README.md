@@ -86,10 +86,17 @@ Explore our demo applications to see our SDKs and services in action. They can s
 
 ### Workshops
 
-Participate in our workshops for hands-on experience and in-depth understanding of building with LtbL. Workshops can be booked for live training sessions by contacting [hello@ltbl.io](mailto:hello@ltbl.io), they can be assisted at some Bitcoin events, or you can just follow the instructions in the github repositories at your own pace.
+Participate in our workshops for hands-on experience and in-depth understanding of building with LtbL. Workshops can be booked for live training sessions by contacting [hello@ltbl.io](mailto:hello@ltbl.io), they can be assisted at some Bitcoin events, or you can just follow the instructions in the github repositories at your own pace. We have workshops available for Flutter and React Native.
+
+#### Workshops in Flutter
 
 - BDK Flutter: https://github.com/LtbLightning/bdk-flutter-workshop
 - LDK Node Flutter: https://github.com/LtbLightning/ldk-node-flutter-workshop
+
+#### Workshops in React Native
+
+- BDK React Native: https://github.com/LtbLightning/bdk-rn-workshop
+- LDK Node React Native: https://github.com/LtbLightning/ldk-node-rn-workshop
 
 ## Support and Community 🤝
 
