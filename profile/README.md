@@ -46,7 +46,7 @@ All packages like BDK, LDK Node and PDK rely on this information and can be conf
 
 - Mutinynet: https://mutinynet.ltbl.io/api
 - Testnet: https://testnet.ltbl.io/api
-- 🔜 Mainnet:
+- Mainnet: https://mainnet.ltbl.io/api
 
 This service can be utilized as the default blockchain data source in your app, providing a seamless initial user experience, with the option for users to configure their own node in the application settings later, if preferred.
 
@@ -56,7 +56,7 @@ The Lightning Network's efficiency and performance depend heavily on timely and 
 
 - Mutinynet: https://mutinynet.ltbl.io/snapshot
 - Testnet: https://testnet.ltbl.io/snapshot
-- 🔜 Mainnet:
+- Mainnet: https://mainnet.ltbl.io/snapshot
 
 ### Versioned Storage System (VSS)
 
